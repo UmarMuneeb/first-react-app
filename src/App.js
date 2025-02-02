@@ -12,7 +12,7 @@ const movie1 = {
     "Poster": "https://m.media-amazon.com/images/M/MV5BMTlmZjQzNmYtMjA1Ny00N2JkLWJhM2ItYTU3ODQ4Zjc2MWE1XkEyXkFqcGdeQXVyNzg5OTk2OA@@._V1_SX300.jpg"
 }
 
-const API_URL = "http://www.omdbapi.com?apikey=c30f4ca1"
+const API_URL = "https://www.omdbapi.com?apikey=c30f4ca1"
 
 const App = () => {
     const [movies, setMovies] = useState([])
